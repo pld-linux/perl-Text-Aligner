@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Aligner
+%define		pdir	Text
+%define		pnam	Aligner
 Summary:	Text::Aligner - justify strings to various alignment styles
 Summary(pl):	Text::Aligner - justowanie ³añcuchów z ró¿nymi stylami wyrównania
 Name:		perl-Text-Aligner
