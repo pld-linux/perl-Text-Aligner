@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Aligner
-Summary:	Text::Aligner - Organize Data in Tables
-Summary(pl):	Text::Aligner - organizowanie danych w tabelach
+Summary:	Text::Aligner - justify strings to various alignment styles
+Summary(pl):	Text::Aligner - justowanie ³añcuchów z ró¿nymi stylami wyrównania
 Name:		perl-Text-Aligner
 Version:	0.03
 Release:	1
@@ -21,10 +21,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Organize Data in Aligners.
+Justify strings to various alignment styles.
 
 %description -l pl
-Organizowanie danych z wyrównywaniem.
+Justowanie ³añcuchów z ró¿nymi stylami wyrównania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
