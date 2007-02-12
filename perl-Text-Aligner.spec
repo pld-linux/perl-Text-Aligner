@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Aligner
 Summary:	Text::Aligner - justify strings to various alignment styles
-Summary(pl):	Text::Aligner - justowanie 砤馽uch體 z r罂nymi stylami wyr體nania
+Summary(pl.UTF-8):   Text::Aligner - justowanie 艂a艅cuch贸w z r贸偶nymi stylami wyr贸wnania
 Name:		perl-Text-Aligner
 Version:	0.03
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Justify strings to various alignment styles.
 
-%description -l pl
-Justowanie 砤馽uch體 z r罂nymi stylami wyr體nania.
+%description -l pl.UTF-8
+Justowanie 艂a艅cuch贸w z r贸偶nymi stylami wyr贸wnania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
