@@ -9,7 +9,7 @@ Summary:	Text::Aligner - justify strings to various alignment styles
 Summary(pl.UTF-8):	Text::Aligner - justowanie łańcuchów z różnymi stylami wyrównania
 Name:		perl-Text-Aligner
 Version:	0.03
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
