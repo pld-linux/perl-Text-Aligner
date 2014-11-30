@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Text
 %define		pnam	Aligner
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Aligner - justify strings to various alignment styles
 Summary(pl.UTF-8):	Text::Aligner - justowanie łańcuchów z różnymi stylami wyrównania
 Name:		perl-Text-Aligner
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	73088eaeae1e6c627398db1e7cc76717
+URL:		http://search.cpan.org/dist/Text-Aligner/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
