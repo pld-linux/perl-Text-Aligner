@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Aligner
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Aligner - justify strings to various alignment styles
 Summary(pl.UTF-8):	Text::Aligner - justowanie łańcuchów z różnymi stylami wyrównania
 Name:		perl-Text-Aligner
